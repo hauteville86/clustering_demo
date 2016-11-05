@@ -12,7 +12,7 @@ from scipy.spatial import distance
 
 matplotlib.style.use('ggplot')
 
-dataset = pd.read_csv('Datasets/pca_example', delim_whitespace=True, index_col=0)
+dataset = pd.read_csv('pca_example', delim_whitespace=True, index_col=0)
 
 print(dataset)
 
